@@ -28,6 +28,9 @@ p,
 .tmpl-post li {
   line-height: 1.45;
 }
+img {
+  max-width: 100%;
+}
 a[href] {
   color: var(--blue);
 }
