@@ -4,6 +4,7 @@ description: I'm planning to improve starter 11ty theme for my needs. First of a
 date: 2021-08-24
 tags:
   - blog
+  - thoughts
 layout: layouts/post.njk
 ---
 I'm planning to improve starter 11ty theme for my needs. First of all I think I will need to add some functionality, optimize it a bit and change some markup and styles to do better semantic.
