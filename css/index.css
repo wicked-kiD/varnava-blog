@@ -6,6 +6,7 @@
   --headings: #f5deb3;
   --post-tags: #ec4899;
   --post-link: #f5deb3;
+  --max-site-width: 1200px;
 }
 
 /* Global stylesheet */
@@ -118,6 +119,12 @@ code {
 }
 .highlight-line-remove {
   background-color: #902f2f;
+}
+
+/* Main wrapper */
+.main-wrapper {
+  max-width: var(--max-site-width);
+  margin: auto;
 }
 
 /* Header */
