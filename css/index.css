@@ -1,11 +1,11 @@
 /* Colors */
 :root {
-  --lightgray: #e0e0e0;
-  --gray: #C0C0C0;
-  --darkgray: #333;
-  --navy: #17050F;
-  --blue: #082840;
-  --white: #fff;
+  --background: #171717;
+  --text: #a4a19d;
+  --link: #14b8a5;
+  --headings: #f5deb3;
+  --post-tags: #ec4899;
+  --post-link: #f5deb3;
 }
 
 /* Global stylesheet */
@@ -18,8 +18,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
-  color: var(--darkgray);
-  background-color: var(--white);
+  color: var(--text);
+  background-color: var(--background);
 }
 p:last-child {
   margin-bottom: 0;
@@ -32,10 +32,13 @@ img {
   max-width: 100%;
 }
 a[href] {
-  color: var(--blue);
+  color: var(--link);
 }
-a[href]:visited {
-  color: var(--navy);
+h1, h2, h3, h4, h5, h6 {
+  color: var(--headings)
+}
+time {
+  color: var(--post-tags);
 }
 main {
   padding: 1rem;
@@ -44,7 +47,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  border-bottom: 1px dashed var(--post-tags);
 }
 header:after {
   content: "";
@@ -169,7 +172,6 @@ code {
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8125em; /* 13px /16 */
-  color: var(--darkgray);
 }
 .postlist-date {
   word-spacing: -0.5px;
@@ -187,6 +189,7 @@ code {
 .tmpl-home .postlist-link {
   font-size: 1.1875em; /* 19px /16 */
   font-weight: 700;
+  color: var(--post-link);
 }
 
 
@@ -201,19 +204,15 @@ code {
   margin-left: 0.6666666666667em; /* 8px /12 */
   margin-top: 0.5em; /* 6px /12 */
   margin-bottom: 0.5em; /* 6px /12 */
-  color: var(--darkgray);
-  border: 1px solid var(--gray);
+  color: var(--post-tags);
+  border: 1px solid var(--post-tags);
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
   line-height: 1.8;
 }
-a[href].post-tag,
-a[href].post-tag:visited {
-  color: inherit;
-}
 a[href].post-tag:hover,
 a[href].post-tag:focus {
-  background-color: var(--lightgray);
+  color: var(--post-link);
 }
 .postlist-item > .post-tag {
   align-self: center;
