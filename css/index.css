@@ -77,7 +77,6 @@ pre {
   word-spacing: normal;
   word-break: normal;
   -moz-tab-size: 2;
-  -o-tab-size: 2;
   tab-size: 2;
   -webkit-hyphens: none;
   -moz-hyphens: none;
@@ -250,4 +249,20 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+/* Next/Previous links */
+.next-prev {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 600px) {
+  .next-prev {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.next-prev .arrow {
+  color: var(--post-tags);
 }
