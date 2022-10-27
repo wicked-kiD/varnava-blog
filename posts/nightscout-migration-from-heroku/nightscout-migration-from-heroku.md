@@ -43,10 +43,12 @@ Process will start, and it will take few minutes to migrate the project. After t
 
 You will be able to see you new application running. And you will see the new url like project-name.fly.dev. Change service address wherever you need. It could be xDrip, Android APS and so on.
 
+In my case it was xDrip url to send data and the link to the NS Client at Android APS.
+
 ### Stop your Heroku app
 
 Just stop your Heroku app to avoid costs in the future or other problems.
 
 ## Conclusion
 
-Process is pretty simple and takes about 10 minutes in general. I will update this post with more details later. Did it ASAP to help people migrate their services.
+Process is pretty simple and takes about 10 minutes in general. All secrets will stay the same and everything should work from the box. I will update this post with more details later. Did it ASAP to help people migrate their services.
