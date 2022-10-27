@@ -15,7 +15,7 @@ As everyone knows, Heroku removed their free tier plan and from 28 November 2022
 
 I found service that has one click migration from the heroku. It's not completely free, but free plan should be enough for the Nightscout app. So just use that link to the [One-Click Heroku migrator](https://fly.io/launch/heroku).
 
-![One-Click migration from Heroku to the Fly.io](one-click-migrator.jpg)
+![One-Click migration from Heroku to the Fly.io](one-click-migration.png)
 
 ### Sign in to Heroku
 
@@ -23,7 +23,7 @@ Just login to your Heroku account and give access. It will let Fly.io to get all
 
 ### Sign in to Heroku
 
-![Setup configuration](configure.jpg)
+![Setup configuration](configure.png)
 
 Just fill the inputs:
 
